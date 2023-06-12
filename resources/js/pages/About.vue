@@ -4,14 +4,15 @@
   </div>
 </template>
 
-<script>
-export default {
-  setup() {
+<script setup>
+import { onMounted } from 'vue';
 
 
-    return {}
-  }
-}
+
+onMounted(() => {
+  console.log('hello')
+  window.axios.get('/users')
+
+    .then(res => console.log(res.data));
+})
 </script>
-
-<style lang="scss" scoped></style>

@@ -6,12 +6,12 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@vitejs/plugin-vue": "^4.2.3",
         "axios": "^1.1.2",
         "laravel-vite-plugin": "^0.7.5",
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "@vitejs/plugin-vue": "^4.2.3",
         "i": "^0.3.7",
         "npm": "^9.6.7",
         "pinia": "^2.1.3",
